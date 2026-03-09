@@ -1,30 +1,30 @@
 class GitWorkset < Formula
   desc "Named sparse-checkout profiles for git worktrees"
   homepage "https://github.com/lauripiispanen/git-workset"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/lauripiispanen/git-workset/releases/download/v#{version}/git-workset-x86_64-apple-darwin.tar.gz"
-      sha256 "b721437444be8c9d0730b22fd03085c0912e251442012c062d314c7e143bbfee"
+      sha256 "3534b1e385842a82f94226b4168e2d1d4a3bc0345357a7258ac6d9ea98c75dce"
     end
 
     on_arm do
       url "https://github.com/lauripiispanen/git-workset/releases/download/v#{version}/git-workset-aarch64-apple-darwin.tar.gz"
-      sha256 "86c9e8b7c568e669657176d9a7ae2700ec293fa44584f0b3fd414f326975de4d"
+      sha256 "ea21ba8c6e70490b7e6a11b98d411c89c3565940647b78fabe43fb93cb98c5f3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lauripiispanen/git-workset/releases/download/v#{version}/git-workset-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3c4e28aed50a17d1e0b223d84c66ef57d77131e39130c2b4aa01fb4ae187c322"
+      sha256 "dd3e6e2ef2cbdc6fa8fe7dc47b782e6c7752096adde2eda766ae465cd1923e5f"
     end
 
     on_arm do
       url "https://github.com/lauripiispanen/git-workset/releases/download/v#{version}/git-workset-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5d85b123a529c9b99ba8b0742d9c9129f6182f9a49b28897a128584f24279b89"
+      sha256 "bcd3da8ce61354d1bfe5429f6d1d6034397be2da845bbadf05db8100725fe3c3"
     end
   end
 
