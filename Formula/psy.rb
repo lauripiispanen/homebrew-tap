@@ -1,30 +1,30 @@
 class Psy < Formula
   desc "Cross-platform process lifecycle manager"
   homepage "https://github.com/lauripiispanen/psy"
-  version "0.1.0"
+  version "1.6.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/lauripiispanen/psy/releases/download/v#{version}/psy-x86_64-apple-darwin.tar.gz"
-      sha256 "69cdceabd4057a6a37156ab8671f11cf89050fcb3a0e31cac13f83a752028bfb"
+      sha256 "6a6a3f1b95370f4b856968377c20d6771744c714fabc4dd7b5eec1b8a057280e"
     end
 
     on_arm do
       url "https://github.com/lauripiispanen/psy/releases/download/v#{version}/psy-aarch64-apple-darwin.tar.gz"
-      sha256 "84b51ec93b74e959c537f6b79370dc813356f3fe7d3f9e0ea7c0bb3c2bf8fd39"
+      sha256 "65f1665e55ce1dd4bfb1dcb7e0b71518f38fc88205f4e2e204b01608e2e0e134"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lauripiispanen/psy/releases/download/v#{version}/psy-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6c44074cd2a5205aa27cf3ecfd9e91a92c1485baa6e75c92b33108d9b06d7bb1"
+      sha256 "4f4d0e0deb860b6e5ffbbfc2f9b9463719b1bd10963b1d253ac4c543fd6ef135"
     end
 
     on_arm do
       url "https://github.com/lauripiispanen/psy/releases/download/v#{version}/psy-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "49a299ffb2aa6e57ee59ee1f3229a6cbde72280f51b5e16b5493d650441e788d"
+      sha256 "9bcab9a1854731efe49cc93c710f80daeccb15244b7096278893395626247518"
     end
   end
 
